@@ -1,0 +1,14 @@
+<?php foreach ($this->tables as $item => $table) { ?>
+    <p><strong>Table:</strong> <?php echo $table; ?></p>
+    <?php foreach ($this->definitions[$table] as $definition) { ?>
+        <blockquote>
+            <em>Name:</em> <?php echo $definition["name"]; ?><br />
+            <em>Length:</em> <?php echo $definition["length"]; ?>
+        </blockquote>
+    <?php } ?>
+    <strong>Form:</strong>
+    <?php echo $this->forms[$item]; ?>
+    Codigo: <br />
+    <textarea cols="80" rows="20"><?php echo $this->forms[$item]; ?></textarea>
+    <hr />
+<?php } ?>

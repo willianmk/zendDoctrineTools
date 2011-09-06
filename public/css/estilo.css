@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*ESTRUTURA
+**************************************************/
+body{
+    margin:0px;
+    color:#868484;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size:12px;
+    background:#f5f5f5;
+}
+
+h1{
+    color:#FFF;
+    font-size:14px;}
+
+h2{
+    color:#6b6b6b;
+    font-size:15px;}
+
+
+
+
+/*FORMULÁRIOS
+**************************************************/
+
+
+.textoFormulario {
+    color:#3f5b81;
+}
+
+
+.caixaTexto{
+    padding:4px;
+    border:1px solid #d0d0d0;
+    background:#FFF;
+}
+
+.caixaTexto2{
+    padding:4px;
+    border:1px solid #eeecec;
+    background:#FFF;
+}
+
+.caixaSelecao{
+    padding:4px;
+    border:1px solid #d0d0d0;
+    background:#FFF;
+}
+
+/*lINKS
+**************************************************/
+
+a.link{
+    color: #FFF;
+    text-decoration:none;
+}
+
+a.link:hover{
+    color:#FFF;
+    text-decoration:underline;
+}
+
+a{
+    color: #6e6e6e;
+}
+
+a:hover{
+    color:#c2c2c2;
+}
+
+/**************/
+
+/*Componentes*/
+div.title{
+    background-color: #e0e0e0;
+    height: 27px;
+    padding-top: 15px;
+    padding-left: 10px;
+    margin: 15px 0 5px 0;
+    border: #cccccc solid 1px;
+    border-radius:15px 15px 0px 0px;
+    font-weight: bold;
+}
+
+#grid{
+    padding: 2px;
+    border-collapse: collapse;
+}
+
+#grid th{
+    background-color: #eeeeee; 
+    border: #cccccc 1px solid; 
+    height: 30px;
+    text-align: center;
+}
+
+#grid td{
+    border: #dddddd solid;
+    border-width: 1px 0px 1px 0px;
+    padding: 1px 5px 1px 5px;
+}
+
+#grid tr.style0{
+    background-color: #f5f5f5;
+}
+
+#grid tr.style1{
+    background-color: #fcfcfc;
+}
